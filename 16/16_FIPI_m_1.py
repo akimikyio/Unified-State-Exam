@@ -19,3 +19,15 @@ for n in range(len(f)):
 r = (f[2024]+ 2 * f[2023])/f[2022]
 print(int(r))
 
+# Способ с обходом рекурсии:
+
+# def F(n):
+#     if n == 1:
+#         return 1
+#     else:
+#         c = 1
+#         for i in range(2, n+1):
+#             c *= (i-1)
+#         return c
+# 
+# print((F(2024)+2 * F(2023)) / F(2022))
