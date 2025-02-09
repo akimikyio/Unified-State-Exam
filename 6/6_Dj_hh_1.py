@@ -33,5 +33,4 @@ for x in range(-coords, coords):
         goto(x*scale, y*scale)
         dot(5)
 
-
 done()
