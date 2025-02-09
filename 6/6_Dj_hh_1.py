@@ -34,4 +34,4 @@ for x in range(-coords, coords):
         dot(5)
 
 
-done()
+done();
